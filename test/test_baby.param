@@ -1,0 +1,52 @@
+### Params: baby video
+
+input_filename		= /home/freydik/masters/Eulerian-Motion-Magnification/data/test_wiatraczek.mp4
+output_filename		= result-dcfan.mp4
+
+input_width			= 512
+input_height		= 512
+output_width		= 512
+output_height		= 512
+
+alpha				= 60
+lambda_c			= 30
+cutoff_freq_low		= 0.1
+cutoff_freq_high	= 0.2
+chrom_attenuation	= 0.4
+exaggeration_factor	= 10.0
+delta				= 0
+lambda				= 0
+levels				= 4
+
+## Params: face blood
+##alpha				= 60
+##lambda_c			= 100
+##cutoff_freq_low		= 0.1
+##cutoff_freq_high	= 0.2
+##chrom_attenuation	= 0.4
+##exaggeration_factor	= 10.0
+##delta				= 0
+##lambda				= 0
+##levels				= 9
+
+## Params: face sway
+#alpha				= 60
+#lambda_c			= 30
+#cutoff_freq_low		= 0.1
+#cutoff_freq_high	= 0.2
+#chrom_attenuation	= 0.4
+#exaggeration_factor	= 10.0
+#delta				= 0
+#lambda				= 0
+#levels				= 9
+
+## Params: dcfan
+#alpha				= 60
+#lambda_c			= 30
+#cutoff_freq_low		= 0.1
+#cutoff_freq_high	= 0.2
+#chrom_attenuation	= 0.4
+#exaggeration_factor	= 10.0
+#delta				= 0
+#lambda				= 0
+#levels				= 4
